@@ -16,7 +16,7 @@ function App() {
   }
 
   const handleSubmit = (e) => {
-    e.preventDefault()  //we use this for prevent the default behavior of onSbmit(it will not store the data in state it will refresh,)
+    e.preventDefault()
 
     if (data.username.length < 4) {
       alert('username must be  more than 4 characters')
